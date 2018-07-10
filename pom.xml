@@ -10,7 +10,7 @@
     <module>subModule</module>
   </modules>
   <scm>
-    <developerConnection>scm:git:https://github.com/skltp-incubator/jenkinsStub.git</developerConnection>
+    <developerConnection>scm:git:git://github.com/skltp-incubator/jenkinsStub.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
   <distributionManagement>
