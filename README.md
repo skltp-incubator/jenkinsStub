@@ -1,1 +1,1 @@
-# jenkinsStub
+# JenkinsStub - project för testa Jenkins release pipline
