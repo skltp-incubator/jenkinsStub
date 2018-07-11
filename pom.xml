@@ -10,6 +10,11 @@
     <module>subModule</module>
   </modules>
   
+  <scm>
+    <developerConnection>scm:git:git://github.com/skltp-incubator/jenkinsStub.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+  
   <distributionManagement>
     <repository>
         <id>release-nexus</id>
