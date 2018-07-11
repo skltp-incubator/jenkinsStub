@@ -10,12 +10,12 @@
     <module>subModule</module>
   </modules>
   
-  <scm>
-    <url>https://github.com/skltp-incubator/jenkinsStub</url>
-	<connection>scm:git:git://github.com/skltp-incubator/jenkinsStub.git</connection>
-    <developerConnection>scm:git:git://github.com/skltp-incubator/jenkinsStub.git</developerConnection>
-    <tag>HEAD</tag>
-  </scm>
+    <scm>
+        <connection>scm:git:https://github.com/skltp-incubator/jenkinsStub.git</connection>
+        <developerConnection>scm:git:https://github.com/skltp-incubator/jenkinsStub.git</developerConnection>
+        <url>https://github.com/skltp-incubator/jenkinsStub</url>
+        <tag>HEAD</tag>
+    </scm>
   
   <distributionManagement>
     <repository>
@@ -29,4 +29,20 @@
         <url>${snapshot-nexus-url}</url>
     </snapshotRepository>
     </distributionManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.1</version>
+                <configuration>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <tagNameFormat>v@{project.version}</tagNameFormat>
+                    <pushChanges>false</pushChanges>
+                    <localCheckout>true</localCheckout>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
