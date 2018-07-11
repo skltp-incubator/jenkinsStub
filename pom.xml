@@ -11,6 +11,8 @@
   </modules>
   
   <scm>
+    <url>https://github.com/skltp-incubator/jenkinsStub</url>
+	<connection>scm:git:git://github.com/skltp-incubator/jenkinsStub.git</connection>
     <developerConnection>scm:git:git://github.com/skltp-incubator/jenkinsStub.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
