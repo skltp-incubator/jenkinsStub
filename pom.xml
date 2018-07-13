@@ -9,12 +9,11 @@
   <modules>
     <module>subModule</module>
   </modules>
-
     <scm>
-        <connection>scm:git:git@github.com:mtuliakova/skltp-incubator/jenkinsStub.git</connection>
-        <developerConnection>scm:git:git@github.com:mtuliakova/skltp-incubator/jenkinsStub.git</developerConnection>
-        <url>git@github.com:mtuliakova/skltp-incubator/jenkinsStub.git</url>
-        <tag>HEAD</tag>
+        <developerConnection>scm:git:https://mtuliakova@github.com/skltp-incubator/jenkinsStub.git</developerConnection>
+        <connection>scm:git:https://mtuliakova@github.com/skltp-incubator/jenkinsStub.git</connection>
+       <!--<url>git@github.com:mtuliakova/skltp-incubator/jenkinsStub.git</url>-->
+        <!--<tag>HEAD</tag>-->
     </scm>
   
   <distributionManagement>
