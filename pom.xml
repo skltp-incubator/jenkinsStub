@@ -20,12 +20,12 @@
     <repository>
         <id>release-nexus</id>
         <name>Release Nexus</name>
-        <url>https://nexus.inera.se/repository/SKLTP-Releases/</url>
+        <url>${releases-nexus-url}</url>
     </repository>
     <snapshotRepository>
         <id>snapshot-nexus</id>
         <name>Snapshot Nexus</name>
-        <url>https://nexus.inera.se/repository/SKLTP-Snapshots/</url>
+        <url>${snapshot-nexus-url}</url>
     </snapshotRepository>
     </distributionManagement>
 </project>
