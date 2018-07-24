@@ -28,27 +28,4 @@
         <url>${snapshot-nexus-url}</url>
     </snapshotRepository>
     </distributionManagement>
-
-    <profiles>
-        <profile>
-            <id>skltp</id>
-
-            <properties>
-                <!-- Ställer om URL för snapshots och release i distributionManagement i pom.xml, pom.xml måste använda dessa för att det ska fungera -->
-                <releases-nexus-url>https://nexus.inera.se/repository/SKLTP-Releases/</releases-nexus-url>
-                <snapshot-nexus-url>https://nexus.inera.se/repository/SKLTP-Snapshots/</snapshot-nexus-url>
-            </properties>
-        </profile>
-        <!-- rivta är en profilen som ska användas när man jobbar med komponenter som inte hör till SKLTP, tex Domdb -->
-        <!-- rivta behöver bara användas på Jenkins om man sättre upp alltig rätt där -->
-        <profile>
-            <id>rivta</id>
-
-            <properties>
-                <!-- Ställer om URL för snapshots och release i distributionManagement i pom.xml, pom.xml måste använda dessa för att det ska fungera -->
-                <releases-nexus-url>https://nexus.inera.se/repository/RIVTA-Releases/</releases-nexus-url>
-                <snapshot-nexus-url>https://nexus.inera.se/repository/RIVTA-Snapshots/</snapshot-nexus-url>
-            </properties>
-        </profile>
-    </profiles>
 </project>
