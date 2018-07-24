@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>se.skltp.jenkins.stub</groupId>
   <artifactId>stub-for-test-Jenkins</artifactId>
-  <version>1.17</version>
+  <version>1.18-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>stub-for-test-Jenkins</name>
   <modules>
@@ -13,7 +13,7 @@
         <developerConnection>scm:git:https://mtuliakova@github.com:443/skltp-incubator/jenkinsStub.git</developerConnection>
         <connection>scm:git:https://mtuliakova@github.com:443/skltp-incubator/jenkinsStub.git</connection>
        <!--<url>git@github.com:mtuliakova/skltp-incubator/jenkinsStub.git</url>-->
-        <tag>stub-for-test-Jenkins-1.17</tag>
+        <tag>HEAD</tag>
     </scm>
   
   <distributionManagement>
