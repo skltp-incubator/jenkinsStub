@@ -4,11 +4,11 @@
   <parent>
     <artifactId>stub-for-test-Jenkins</artifactId>
     <groupId>se.skltp.jenkins.stub</groupId>
-    <version>1.29</version>
+    <version>1.30-SNAPSHOT</version>
   </parent>
 
   <artifactId>jenkins-stub-subModule</artifactId>
-  <version>1.29</version>
+  <version>1.30-SNAPSHOT</version>
 
   <name>jenkins-stub-subModule</name>
 
