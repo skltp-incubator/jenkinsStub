@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>se.skltp.jenkins.stub</groupId>
   <artifactId>stub-for-test-Jenkins</artifactId>
-  <version>1.28-SNAPSHOT</version>
+  <version>1.29-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>stub-for-test-Jenkins</name>
   <modules>
