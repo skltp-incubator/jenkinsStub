@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>se.skltp.jenkins.stub</groupId>
   <artifactId>stub-for-test-Jenkins</artifactId>
-  <version>1.34-RC3</version>
+  <version>1.34-RC4-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>stub-for-test-Jenkins</name>
   <modules>
@@ -12,7 +12,7 @@
     <scm>
         <developerConnection>scm:git:https://github.com:443/skltp-incubator/jenkinsStub.git</developerConnection>
         <connection>scm:git:https://github.com:443/skltp-incubator/jenkinsStub.git</connection>
-      <tag>stub-for-test-Jenkins-1.34-RC3</tag>
+      <tag>HEAD</tag>
   </scm>
   
   <distributionManagement>
