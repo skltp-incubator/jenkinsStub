@@ -14,7 +14,7 @@
         <connection>scm:git:https://github.com:443/skltp-incubator/jenkinsStub.git</connection>
       <tag>HEAD</tag>
   </scm>
-  
+  test-develop
   <distributionManagement>
     <repository>
         <id>release-nexus</id>
@@ -23,7 +23,7 @@
     </repository>
     <snapshotRepository>
         <id>snapshot-nexus</id>
-        <name>Snapshot Nexus78</name>
+        <name>Snapshot Nexus</name>
         <url>${snapshot-nexus-url}</url>
     </snapshotRepository>
     </distributionManagement>
