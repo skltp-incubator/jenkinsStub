@@ -23,7 +23,7 @@
     </repository>
     <snapshotRepository>
         <id>snapshot-nexus</id>
-        <name>Snapshot Nexus</name>
+        <name>Snapshot Nexus78</name>
         <url>${snapshot-nexus-url}</url>
     </snapshotRepository>
     </distributionManagement>
